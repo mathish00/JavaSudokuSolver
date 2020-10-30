@@ -42,9 +42,9 @@ public class MainFrame extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		
+
 		Object[][] data = new Object[9][9];
-		table = new JTable(data, new String[] {"", "", "", "", "", "", "", "", ""});
+		table = new JTable(data, new String[] { "", "", "", "", "", "", "", "", "" });
 		table.setRowHeight(400 / 9);
 		table.setBounds(10, 11, 400, 400);
 		contentPane.add(table);
