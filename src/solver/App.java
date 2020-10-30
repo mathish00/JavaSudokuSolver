@@ -1,3 +1,5 @@
+package solver;
+
 public class App {
     public static void main(String[] args) throws Exception {
         Solver s = new Solver();

@@ -1,3 +1,5 @@
+package solver;
+
 public class Solver {
 
     public boolean solveSudoku(int[][] sudoku) {
